@@ -7,20 +7,20 @@ class SheerDataTui < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/SheerData/sheer-data-tui/releases/download/v#{version}/sheer-data-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "b7547dab6d61284735d5e9e9a241c3c93632c99bb0effe03ed4fcc8f66a27336"
     else
       url "https://github.com/SheerData/sheer-data-tui/releases/download/v#{version}/sheer-data-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "f382af70f137af319ce15e46e1439efb6a67af983e62d1aaa79a67ee85f402d1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/SheerData/sheer-data-tui/releases/download/v#{version}/sheer-data-tui-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "bb190601778f4e37442c84b9a28ef2eac18293e8d5a25158f3fedcda3356bf60"
     else
       url "https://github.com/SheerData/sheer-data-tui/releases/download/v#{version}/sheer-data-tui-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "9c404bb19d323db5715e8a0f80f7376a3b895f5fc0900b1ff4e16dd878510676"
     end
   end
 
